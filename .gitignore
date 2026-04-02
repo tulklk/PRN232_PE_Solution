@@ -1,0 +1,44 @@
+# Build output folders
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/TestResults/
+**/artifacts/
+
+# Visual Studio / IDE caches
+**/.vs/
+.vs/
+.vscode/
+
+# Rider / other JetBrains IDEs
+.idea/
+
+# User-specific files (VS)
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vcxproj.user
+*.pdb
+*.ipch
+
+# Local database files (if any)
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# .NET / ASP.NET Core appsettings (local/dev)
+**/appsettings.Development.json
+**/appsettings*.Development.json
+**/appsettings.local.json
+**/secrets.json
+**/.env
+**/*.env
+
